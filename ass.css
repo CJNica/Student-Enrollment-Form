@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: moccasin;
+}
+h1 {
+    text-align: center;
+    background-color: #86752a;
+    color: white;
+    padding: 20px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100%;
+}
+h3 {
+    margin-top: 20px;
+}
+ul {
+    list-style-type: decimal;
+    margin-left: 20px;   
+}
+label {
+    display: block; 
+    margin-bottom: 8px;
+}
+input[type="checkbox"] {
+    margin-right: 10px; 
+}
+  
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+    
+}
+input, select, button {
+    width: 97%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+button {
+    background-color: #4d4544;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ffa201;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #86752a;
+    color: white;
+}
+td {
+    background-color: #f9f9f9;
+}
+option{
+    text-align: center;
+}
+div {
+    text-align-last: center;
+}
